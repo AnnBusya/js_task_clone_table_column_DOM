@@ -1,0 +1,2 @@
+var e=document.querySelector("table"),r=e.querySelector("thead tr"),t=e.querySelectorAll("tbody tr"),l=e.querySelector("tfoot tr"),o=r.querySelectorAll("th")[1].cloneNode(!0);if(r.insertBefore(o,r.querySelector("th:last-child")),t.forEach(function(e){var r=e.querySelectorAll("td")[1].cloneNode(!0);e.insertBefore(r,e.querySelector("td:last-child"))}),l){var c=l.querySelectorAll("th")[1].cloneNode(!0);l.insertBefore(c,l.querySelector("th:last-child"))}
+//# sourceMappingURL=index.eebf0023.js.map
